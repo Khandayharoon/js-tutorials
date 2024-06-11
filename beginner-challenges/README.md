@@ -72,3 +72,45 @@ winget install --id Git.Git --exact
 An alternative way is to use Homebrew which is a popular package manager for MacOS.
 
 **Linux**: Please check, wether git is already installed. If git is not installed you can use the package manager that comes with your distribution.
+<<<<<<< HEAD
+=======
+
+## What you need to now about JavaScript
+
+### var, let, and const
+
+Like many other programming languages, JavaScript provides different possibilities to create so called variables. Variables are placeholder for values. You can think of them as drawers.
+
+There are three things you can do with variables. You can declare them, intialise them and assign them.
+
+Declaring a variable is simply writing down the variable. In JavaScript, there are three different ways to declare a variable. Let us assume, we need a variable x in our code. 
+
+``` javascript
+
+// Declaring a variable x with war. This is a global variable.
+var x;
+
+// Declaring a variable y with let. This is a scoped variable.
+let y;
+
+// Declaring a variable z with const. Note, that you cannot declare a variable with const without initialising it.
+const z = 0;
+```
+
+To understand variables in JavaScript, it is important to understand the idea of scope. Normally, a scope is defined in JavaScript by curly braces.
+
+Here is an example:
+
+``` javascript
+
+if(someCondition) {
+    // this is a block
+    if(anotherCondition) {
+        // this is another block
+    }
+}
+
+```
+
+### Arrays
+>>>>>>> readme-additions
