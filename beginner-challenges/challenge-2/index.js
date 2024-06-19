@@ -13,7 +13,7 @@ function handleUserInput() {
     // Clear previous results
     // tableDiv.innerHTML = '';
 
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <= 200; i++) {
         // const rowDiv = document.createElement('div');
         // rowDiv.id = `row${i}`;
         // rowDiv.className = 'row';
