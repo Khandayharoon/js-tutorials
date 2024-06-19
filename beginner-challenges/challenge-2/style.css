@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 2rem;
+    width: 100%;
+    height: auto;
+    
+}
+
+input, button {
+    padding: 10px;
+    text-indent: 5px;
+    margin: 5px;
+}
+
+#tableDiv { 
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: black;
+}
+
+.row {
+    margin-left: 33%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+}
+
