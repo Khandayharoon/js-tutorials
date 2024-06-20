@@ -1,8 +1,8 @@
-# Challenge 3: Create a length converter 
+# Challenge 3: Create a length converter
 
 We are using the branch haroon-khanday for this assignment and the root branch for these tutorials. Make sure, you are branching from the correct branch.
 
-Use git to create the branch haroon-beginner-3. The command for creating and switching to the new branch is 'git checkout -b <branch-name>'. 
+Use git to create the branch haroon-beginner-3. The command for creating and switching to the new branch is 'git checkout -b <branch-name>'.
 
 You will create a length converter in this assignment. Start by converting kilometers to miles and vice versa.
 
