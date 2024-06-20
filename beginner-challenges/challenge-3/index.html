@@ -6,7 +6,26 @@
     <title>JS Tutorial - Challenge 3</title>
 </head>
 <body>
- 
+    <div style="text-align: center;">
+        <h1>Haroon Khanday </h1>
+        <h2>Basic Unit Converter</h2>
+    </div>
+
+    <div>
+        <label for="inputUnit">Enter Number </label>
+        <input type="text" id="inputUnit">
+        <label for="units">Select Unit:</label>
+        <select id="units" name="unit">
+            <option value="Miles">Miles</option>
+            <option value="kilometer">kilometers</option>
+            <option value="Kilograms">Kilograms</option>
+            <option value="Grams">Grams</option>
+            <option value="Meters">Meters</option>
+            <!-- Add more options as needed -->
+        </select>
+        <button onclick="handleInput()">Convert</button>
+    </div>
+    
     <script src="index.js"></script>
 </body>
 </html>
