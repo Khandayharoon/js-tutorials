@@ -5,7 +5,7 @@
  * @returns {number[]} An array containing numbers from 1 to the specified number.
  */
 function generateArray(num) {
-    const generatedArray = [];
+    let generatedArray = [];
     for (let i = 1; i <= num; i++) {
         generatedArray.push(i);
     }
