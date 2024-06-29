@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Tutorial - Challenge 2</title>
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Haroon Khanday</h1>
     <div id="main">
         <div id="table">
-            <label for="inputNumber">Enter a Number </label>
-            <input type="text" id="inputNumber">
-            <button onclick=" handleUserInput()">Genrate Multiplication Table </button>
-         </div>
-
-         <!-- <div id="tableDiv"> </div>   -->
+            <form onsubmit="generateTable(); return false;">
+                <label for="inputNumber">Enter a Number: </label>
+                <input type="text" id="inputNumber">
+                <button type="submit">Generate Multiplication Table</button>
+            </form>
+        </div>
+        <div id="table-div"></div>  
     </div>
-    
     <script src="index.js"></script>
 
 </body>

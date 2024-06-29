@@ -1,31 +1,33 @@
 
-function handleUserInput() {
+
+function generateTable() {
+
     let num = document.getElementById('inputNumber').value;
     num = parseInt(num);
 
-    if (num < 1 || isNaN(num)) {
+    if (isNaN(num) || num < 1) {
         alert("Please enter a valid non-negative number.");
         return;
     }
 
-    // let tableDiv = document.getElementById('tableDiv');
+    let tableDiv = document.getElementById('table-div');
+
 
     // Clear previous results
     // tableDiv.innerHTML = '';
+    let table = document.createElement('table');
+    table.id = 'multiplicationTable';
 
-    for (let i = 1; i <= 200; i++) {
-        // const rowDiv = document.createElement('div');
-        // rowDiv.id = `row${i}`;
-        // rowDiv.className = 'row';
-
-        // const newP = document.createElement('p');
-        // newP.id = `result${i}`;
-        // newP.className = 'result';
-        console.log(`${num} x ${i} = ${num * i}`);
-        // newP.textContent = `${num} x ${i} = ${num * i}`;
-
-        // rowDiv.appendChild(newP);
-        // tableDiv.appendChild(rowDiv);
+    for (let i = 1; i <= num; i++) {
+        let row = document.createElement('tr');
+        for (let j = 1; j <= num; j++) {
+            let cell = document.createElement('td');
+            cell.textContent = i * j;
+            row.appendChild(cell);
+        }
+        table.appendChild(row);
     }
+
+    tableDiv.appendChild(table);
 }
 
