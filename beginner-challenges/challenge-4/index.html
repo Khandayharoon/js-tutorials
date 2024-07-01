@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Tutorial - Challenge 4</title>
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>JS Tutorial - Challenge 4</h1>
-   <p>This page exists only to run the code.</p> 
-   <p>Open your developer console to view your result.</p>
+    <h1>Enter Numbers as an Array Seprated with Common ,</h1>
+
+    <form action="" id="inputForm">
+        <label for="userInput"></label>
+        <input  id="userInput" type="text">
+        <button type="submit" onclick="handleUserInput()">submit</button>
+    </form>
+    <p id="result"></p>
+    <script src="index.js"></script>
 </body>
 </html>
