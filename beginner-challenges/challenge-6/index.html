@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Tutorial - Challenge 6</title>
-    <script src="script.js" defer></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
-   <h1>JS Tutorial - Challenge 6</h1>
-   <p>This page exists only to run the code.</p> 
-   <p>Open your developer console to view your result.</p>
+    <form action="#" id="form">
+        <label for="inputArray"><h1>Please Enter an Array (comma-separated)</h1></label>
+        <input type="text" id="inputArray" placeholder="e.g., 9, 2, 6, 9, 1, 0, 3, 4, 77, 8">
+        <button type="button" onclick="sortArrayAscendingOrder()">Sort in Ascending Order</button>
+        <button type="button" onclick="sortArrayDescendingOrder()">Sort in Descending Order</button>
+    </form>
+
+    <div>
+        <h3>Array in Assending Order </h3>
+        <p id = "sortArrayAscendingOrder"></p>
+    </div>
+
+    <div>
+        <h3>Array in Descending Order </h3>
+        <p id = "sortArrayDescendingOrder"></p>
+    </div>
+</body>
 </body>
 </html>
