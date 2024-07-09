@@ -2,7 +2,7 @@
 
 We are using the branch haroon-khanday for this assignment and the root branch for these tutorials. Make sure, you are branching from the correct branch.
 
-Use git to create the branch haroon-beginner-2. The command for creating and switching to the new branch is 'git checkout -b <branch-name>'. 
+Use git to create the branch haroon-beginner-2. The command for creating and switching to the new branch is 'git checkout -b <branch-name>'.
 
 This challenge is about finding the vowels in a string. Take a string and return the numbers of vowels in it.
 
