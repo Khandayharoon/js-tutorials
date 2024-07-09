@@ -1,11 +1,22 @@
-let num = 54;
-function checkNumberDividable(num){
-    if(num % 10 === 0){
-        console.log(`${num} is  dividable by Ten`)
-    }
-    else
-    {
-        console.log(`${num} is not  dividable by Ten`)
-    }
+function isNumberDivisible() {
+    document.getElementById("form").addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        let inputNumber = document.getElementById("input").value;
+        inputNumber = parseInt(inputNumber.trim());
+
+        if (isNaN(inputNumber)) {
+            document.getElementById("result").innerText = "Please enter a valid number.";
+            return;
+        }
+
+        if (inputNumber % 10 === 0) {
+            console.log(`${inputNumber} is divisible by ten`);
+            document.getElementById("result").innerText = `${inputNumber} is divisible by ten`;
+        } else {
+            console.log(`${inputNumber} is not divisible by ten`);
+            document.getElementById("result").innerText = `${inputNumber} is not divisible by ten`;
+        }
+    });
 }
-checkNumberDividable(num);
+isNumberDivisible();
