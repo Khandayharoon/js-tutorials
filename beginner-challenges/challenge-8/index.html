@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Tutorial - Challenge 8</title>
-    <script src="script.js" defer></script>
+    <title>JS Tutorial - Challenge 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>JS Tutorial - Challenge 3</h1>
-   <p>This page exists only to run the code.</p> 
-   <p>Open your developer console to view your result.</p>
+    <h1>Haroon Khanday</h1>
+    <div id="main">
+        <div id="table">
+            <form onsubmit="generateTable(); return false;">
+                <label for="inputNumber">Enter a Number: </label>
+                <input type="text" id="inputNumber">
+                <button type="submit">Generate Multiplication Table</button>
+            </form>
+        </div>
+        <div id="table-div"></div>  
+    </div>
+    <script src="index.js"></script>
+
 </body>
 </html>
