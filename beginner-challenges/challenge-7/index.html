@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Tutorial - Challenge 7>
-    <script src="script.js" defer></script>
+    <title>JS Tutorial - Challenge 7</title>
 </head>
 <body>
-   <h1>JS Tutorial - Challenge 7</h1>
-   <p>This page exists only to run the code.</p> 
-   <p>Open your developer console to view your result.</p>
+    <h1>Enter an Array including Negative Number and Positive Number</h1>
+    <form id="arrayForm">
+        <label for="arrayInput">Array (comma separated): </label>
+        <input type="text" id="arrayInput" placeholder="e.g. -1, 2, -3, 4, 5">
+        <button type="submit">Show Result</button>
+    </form>
+    <div>
+        <h4>Negative Array :- </h4>
+        <p id="Negresult"></p>
+    </div>
+    <div>
+        <h4>Positive Array :- </h4>
+        <p id="Posresult"></p>
+    </div>
+
+
+<script src="index.js"></script>    
 </body>
 </html>
